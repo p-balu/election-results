@@ -1,0 +1,339 @@
+/* .App {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top:1%;
+  margin-bottom: 1%;
+  background-color: white;
+  border:none;
+  height: auto;
+  box-shadow: 1px 1px 4px 4px whitesmoke;
+  border-radius: 5px;
+}
+.Appp{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top:1%;
+  margin-bottom: 1%;
+  background-color: white;
+  border:none;
+  height: 910px;
+  box-shadow: 1px 1px 4px 4px whitesmoke;
+  border-radius: 5px;
+} */
+.fileUpload{
+border:1px solid;
+width:50%;
+height:50%;
+margin-left:25%;
+margin-right:25%;
+margin-top:10%;
+}
+.link{
+  text-decoration: none;
+  list-style: none;
+  padding: 8px 5px;
+color:whitesmoke;
+  font-size: x-large;
+  text-align: left;
+}
+.header{
+  display:flex;
+ 
+  min-height: 5vh;
+  max-height: 8vh;
+  width: 100%;
+  background-color: rgb(53,142,135);
+}
+.headerText{
+  color: black;
+  margin-left:4px;
+}
+.navLinks{
+  padding: 8px 5px;
+  text-align: center;
+  font-size: larger;
+  display: flex;
+  margin-left:8% ;
+  width:15%;
+  justify-content: space-between;
+}
+.sub-menu{
+  position: absolute;
+  background-color: rgb(53,142,135);
+  list-style-type: none;
+  width: 375px;
+  padding-left: 0px;
+  margin-left:-15px;
+ 
+  opacity: 0;
+}
+.Link1{
+text-decoration: none;
+border:1px solid;
+padding-left:25px;
+padding-top:5px;
+padding-bottom: 5px;
+font-weight: lighter;
+}
+.Link1:hover{
+  background-color: rgb(101, 167, 161);
+}
+.navLink{
+  list-style: none;
+  text-decoration: none;
+  color:whitesmoke;
+  padding: 4px 8px;
+  border:none;
+  border-radius:3px;
+  position: relative;
+}
+.navLink:hover .sub-menu{
+ font-weight: bolder;
+ opacity:1;
+}
+.Form_Fields{
+  text-align: center;
+  margin-top:-12px;
+  background-color: rgba(70, 177, 170, 0.603);
+height:32px;
+}
+.Form_Field1{
+  text-align: center;
+  background-color: rgba(70, 177, 170, 0.603);
+
+}
+.Form_Label{
+  font-size: larger;
+  margin-left:15px;
+  font-family: fantasy;
+  font-weight: 500;
+}
+.Input_Field{
+  border:none;
+  border-radius: 6px;
+  box-sizing: content-box;
+  padding: 4px 5px;
+  width:200px;
+  margin-top:2px;
+  margin-left:20px;
+}
+.graph{
+display: flex;
+justify-content: space-around;
+}
+.piechart{
+  width:30%;
+  height:30%;
+ margin-top:40px;
+ margin-bottom:40px;
+}
+.border{
+  display: inline-block;
+   width: 15px;
+   height: 15px;
+   border: 1px solid black;
+   border-radius:20px;
+   font-size: 1px;
+   font-family: Verdana;
+}
+.value{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+.textt{
+  font-size: 11px;
+   font-family: Verdana;
+}
+.graphValue{
+  border:1px solid #ccc;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:1%;
+}
+.navLink1{
+  text-decoration: none;
+  list-style: none;
+  padding: 7px 8px;
+  border-radius:3px;
+  color:white;
+  background-color: #e95a8a;
+}
+.navLink1:hover{
+  background-color: whitesmoke;
+  color:black;
+  border:1px solid rgb(105, 105, 105);
+}
+.subContainer{
+  border:1px solid rgb(66, 64, 64);
+  margin-left:22%;
+  margin-right:22%;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.subContainer1{
+  border:1px solid rgb(66, 64, 64);
+  margin-left:16%;
+  margin-right:16%;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.text{
+  text-align:center;
+  font-weight: 600;
+  margin-top:-1px;
+  font-size: larger;
+}
+#students {
+  text-align: center;
+  font-family: Verdana;
+  border-collapse: collapse;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius:10px;
+
+}
+#students td, #students th {
+  border: 1px solid rgb(29, 26, 26);
+  border-radius:5px;
+  padding: 8px;
+  
+}
+#students tr:nth-child(even)
+{
+  background-color: #f2f2f2;
+}
+#students tr:hover 
+{
+  background-color: #ddd;
+}
+#students th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+    background-color: rgba(70, 177, 170, 0.603);
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+  font-family: Verdana;
+}
+#students1 {
+  text-align: center;
+  font-family: Verdana;
+  border-collapse: collapse;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius:10px;
+width: 100%;
+}
+#students1 td, #students1 th {
+  border: 1px solid rgb(29, 26, 26);
+  border-radius:5px;
+  padding: 8px;
+ 
+}
+#students1 tr:nth-child(even)
+{
+  background-color: #f2f2f2;
+}
+#students1 tr:nth-last-child(1) {
+  background-color: rgba(70, 177, 170, 0.603);
+  font-weight: bold;
+}
+
+#students1 tr:hover 
+{
+  background-color: #ddd;
+}
+#students1 th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+    background-color: rgba(70, 177, 170, 0.603);
+  color: black;
+}
+#students1 th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+    background-color: rgba(70, 177, 170, 0.603);
+  color: black;
+}
+.container1{
+  border:1px solid black;
+  height:50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+    background-color: rgba(70, 177, 170, 0.603);
+}
+.container12{
+  border:1px solid black;
+  height:50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+    background-color: rgba(70, 177, 170, 0.603);
+
+}
+.container2{
+  height: 30px;
+  text-align: center;
+    background-color: rgba(70, 177, 170, 0.603);
+  font-size: 13px;
+  font-weight: 600;
+  border-left:1px solid black;
+  border-right:1px solid black;
+  font-family: Verdana;
+}
+.divStatus{
+  border: 1px solid black;
+  background-color: rgba(70, 177, 170, 0.603);
+  color: black;
+}
+.container{
+  border: 1px solid black;
+  margin-left:21%;
+  margin-right:21%;
+  font-family: Verdana;
+}
+.container3{
+  border: 1px solid black;
+  margin-left:15%;
+  margin-right:15%;
+  font-family: Verdana;
+}
+.searchField{
+  border:1px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-left:39%;
+  margin-right:42%;
+  margin-top:3px;
+  margin-bottom: 3px;
+  padding:5px 120px;
+}
+.tableContainer{
+  margin-left:5%;
+  margin-right:5%;
+  border:1px solid black; 
+}
+.tableData{
+  display: flex;
+}
+
+.footerText{
+  text-align: center;
+  margin-top:25px;
+}
+.diclaimerText{
+  margin-left:20%;
+	padding: 10px;
+	text-align: center;
+	width: 59%;
+	float: none;
+	border: 1px solid #ddd;
+  background: #f4f4f4;
+  font-family: Verdana;
+}
